@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+#source 'https://github.com/CocoaPods/Specs'
+source 'https://git.coding.net/CocoaPods/Specs.git'
+
+target 'ATSDWebImage' do
+
+use_frameworks!
+pod 'SDWebImage'
+    
+end

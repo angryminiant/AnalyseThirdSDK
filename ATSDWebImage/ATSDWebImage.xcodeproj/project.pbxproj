@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45202FFD2477A0B100E96077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202FFC2477A0B100E96077 /* AppDelegate.swift */; };
+		45202FFF2477A0B100E96077 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45202FFE2477A0B100E96077 /* SceneDelegate.swift */; };
+		452030012477A0B100E96077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452030002477A0B100E96077 /* ViewController.swift */; };
+		452030042477A0B100E96077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452030022477A0B100E96077 /* Main.storyboard */; };
+		452030072477A0B100E96077 /* ATSDWebImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 452030052477A0B100E96077 /* ATSDWebImage.xcdatamodeld */; };
+		452030092477A0B700E96077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452030082477A0B700E96077 /* Assets.xcassets */; };
+		4520300C2477A0B700E96077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4520300A2477A0B700E96077 /* LaunchScreen.storyboard */; };
+		452030172477A0B700E96077 /* ATSDWebImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452030162477A0B700E96077 /* ATSDWebImageTests.swift */; };
+		452030222477A0B700E96077 /* ATSDWebImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452030212477A0B700E96077 /* ATSDWebImageUITests.swift */; };
+		F5CE56EAFDF9417DFDC5E5A3 /* Pods_ATSDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242CC97F7A8528C8CE9470A7 /* Pods_ATSDWebImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		452030132477A0B700E96077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45202FF12477A0B100E96077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45202FF82477A0B100E96077;
+			remoteInfo = ATSDWebImage;
+		};
+		4520301E2477A0B700E96077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45202FF12477A0B100E96077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45202FF82477A0B100E96077;
+			remoteInfo = ATSDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242CC97F7A8528C8CE9470A7 /* Pods_ATSDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATSDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F04EC97B3D2F49112EC36 /* Pods-ATSDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSDWebImage.release.xcconfig"; path = "Target Support Files/Pods-ATSDWebImage/Pods-ATSDWebImage.release.xcconfig"; sourceTree = "<group>"; };
+		45202FF92477A0B100E96077 /* ATSDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATSDWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45202FFC2477A0B100E96077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45202FFE2477A0B100E96077 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		452030002477A0B100E96077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		452030032477A0B100E96077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		452030062477A0B100E96077 /* ATSDWebImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ATSDWebImage.xcdatamodel; sourceTree = "<group>"; };
+		452030082477A0B700E96077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4520300B2477A0B700E96077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4520300D2477A0B700E96077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452030122477A0B700E96077 /* ATSDWebImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATSDWebImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		452030162477A0B700E96077 /* ATSDWebImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSDWebImageTests.swift; sourceTree = "<group>"; };
+		452030182477A0B700E96077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4520301D2477A0B700E96077 /* ATSDWebImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATSDWebImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		452030212477A0B700E96077 /* ATSDWebImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSDWebImageUITests.swift; sourceTree = "<group>"; };
+		452030232477A0B700E96077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C9EF015935C8E15BBF7F65 /* Pods-ATSDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSDWebImage.debug.xcconfig"; path = "Target Support Files/Pods-ATSDWebImage/Pods-ATSDWebImage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45202FF62477A0B100E96077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CE56EAFDF9417DFDC5E5A3 /* Pods_ATSDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4520300F2477A0B700E96077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4520301A2477A0B700E96077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A617EA75112DF23ECC960D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				242CC97F7A8528C8CE9470A7 /* Pods_ATSDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45202FF02477A0B100E96077 = {
+			isa = PBXGroup;
+			children = (
+				45202FFB2477A0B100E96077 /* ATSDWebImage */,
+				452030152477A0B700E96077 /* ATSDWebImageTests */,
+				452030202477A0B700E96077 /* ATSDWebImageUITests */,
+				45202FFA2477A0B100E96077 /* Products */,
+				F755851E6E8BA1BCA4E95A51 /* Pods */,
+				01A617EA75112DF23ECC960D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45202FFA2477A0B100E96077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45202FF92477A0B100E96077 /* ATSDWebImage.app */,
+				452030122477A0B700E96077 /* ATSDWebImageTests.xctest */,
+				4520301D2477A0B700E96077 /* ATSDWebImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45202FFB2477A0B100E96077 /* ATSDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				45202FFC2477A0B100E96077 /* AppDelegate.swift */,
+				45202FFE2477A0B100E96077 /* SceneDelegate.swift */,
+				452030002477A0B100E96077 /* ViewController.swift */,
+				452030022477A0B100E96077 /* Main.storyboard */,
+				452030082477A0B700E96077 /* Assets.xcassets */,
+				4520300A2477A0B700E96077 /* LaunchScreen.storyboard */,
+				4520300D2477A0B700E96077 /* Info.plist */,
+				452030052477A0B100E96077 /* ATSDWebImage.xcdatamodeld */,
+			);
+			path = ATSDWebImage;
+			sourceTree = "<group>";
+		};
+		452030152477A0B700E96077 /* ATSDWebImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				452030162477A0B700E96077 /* ATSDWebImageTests.swift */,
+				452030182477A0B700E96077 /* Info.plist */,
+			);
+			path = ATSDWebImageTests;
+			sourceTree = "<group>";
+		};
+		452030202477A0B700E96077 /* ATSDWebImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				452030212477A0B700E96077 /* ATSDWebImageUITests.swift */,
+				452030232477A0B700E96077 /* Info.plist */,
+			);
+			path = ATSDWebImageUITests;
+			sourceTree = "<group>";
+		};
+		F755851E6E8BA1BCA4E95A51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9EF015935C8E15BBF7F65 /* Pods-ATSDWebImage.debug.xcconfig */,
+				3C5F04EC97B3D2F49112EC36 /* Pods-ATSDWebImage.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45202FF82477A0B100E96077 /* ATSDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452030262477A0B700E96077 /* Build configuration list for PBXNativeTarget "ATSDWebImage" */;
+			buildPhases = (
+				F02A609B729D73AE4C35ABC0 /* [CP] Check Pods Manifest.lock */,
+				45202FF52477A0B100E96077 /* Sources */,
+				45202FF62477A0B100E96077 /* Frameworks */,
+				45202FF72477A0B100E96077 /* Resources */,
+				9E4B70212229C355C2D604C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATSDWebImage;
+			productName = ATSDWebImage;
+			productReference = 45202FF92477A0B100E96077 /* ATSDWebImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		452030112477A0B700E96077 /* ATSDWebImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452030292477A0B700E96077 /* Build configuration list for PBXNativeTarget "ATSDWebImageTests" */;
+			buildPhases = (
+				4520300E2477A0B700E96077 /* Sources */,
+				4520300F2477A0B700E96077 /* Frameworks */,
+				452030102477A0B700E96077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				452030142477A0B700E96077 /* PBXTargetDependency */,
+			);
+			name = ATSDWebImageTests;
+			productName = ATSDWebImageTests;
+			productReference = 452030122477A0B700E96077 /* ATSDWebImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4520301C2477A0B700E96077 /* ATSDWebImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4520302C2477A0B700E96077 /* Build configuration list for PBXNativeTarget "ATSDWebImageUITests" */;
+			buildPhases = (
+				452030192477A0B700E96077 /* Sources */,
+				4520301A2477A0B700E96077 /* Frameworks */,
+				4520301B2477A0B700E96077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4520301F2477A0B700E96077 /* PBXTargetDependency */,
+			);
+			name = ATSDWebImageUITests;
+			productName = ATSDWebImageUITests;
+			productReference = 4520301D2477A0B700E96077 /* ATSDWebImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45202FF12477A0B100E96077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = com.hefeichenye;
+				TargetAttributes = {
+					45202FF82477A0B100E96077 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					452030112477A0B700E96077 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 45202FF82477A0B100E96077;
+					};
+					4520301C2477A0B700E96077 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 45202FF82477A0B100E96077;
+					};
+				};
+			};
+			buildConfigurationList = 45202FF42477A0B100E96077 /* Build configuration list for PBXProject "ATSDWebImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45202FF02477A0B100E96077;
+			productRefGroup = 45202FFA2477A0B100E96077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45202FF82477A0B100E96077 /* ATSDWebImage */,
+				452030112477A0B700E96077 /* ATSDWebImageTests */,
+				4520301C2477A0B700E96077 /* ATSDWebImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45202FF72477A0B100E96077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4520300C2477A0B700E96077 /* LaunchScreen.storyboard in Resources */,
+				452030092477A0B700E96077 /* Assets.xcassets in Resources */,
+				452030042477A0B100E96077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452030102477A0B700E96077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4520301B2477A0B700E96077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E4B70212229C355C2D604C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATSDWebImage/Pods-ATSDWebImage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATSDWebImage/Pods-ATSDWebImage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATSDWebImage/Pods-ATSDWebImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02A609B729D73AE4C35ABC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATSDWebImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45202FF52477A0B100E96077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452030012477A0B100E96077 /* ViewController.swift in Sources */,
+				45202FFD2477A0B100E96077 /* AppDelegate.swift in Sources */,
+				452030072477A0B100E96077 /* ATSDWebImage.xcdatamodeld in Sources */,
+				45202FFF2477A0B100E96077 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4520300E2477A0B700E96077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452030172477A0B700E96077 /* ATSDWebImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452030192477A0B700E96077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452030222477A0B700E96077 /* ATSDWebImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		452030142477A0B700E96077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45202FF82477A0B100E96077 /* ATSDWebImage */;
+			targetProxy = 452030132477A0B700E96077 /* PBXContainerItemProxy */;
+		};
+		4520301F2477A0B700E96077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45202FF82477A0B100E96077 /* ATSDWebImage */;
+			targetProxy = 4520301E2477A0B700E96077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		452030022477A0B100E96077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452030032477A0B100E96077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4520300A2477A0B700E96077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4520300B2477A0B700E96077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		452030242477A0B700E96077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		452030252477A0B700E96077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452030272477A0B700E96077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C9EF015935C8E15BBF7F65 /* Pods-ATSDWebImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = ATSDWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hefeichenye.app.ios.ATSDWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		452030282477A0B700E96077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5F04EC97B3D2F49112EC36 /* Pods-ATSDWebImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = ATSDWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hefeichenye.app.ios.ATSDWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4520302A2477A0B700E96077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = ATSDWebImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hefeichenye.app.ios.ATSDWebImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATSDWebImage.app/ATSDWebImage";
+			};
+			name = Debug;
+		};
+		4520302B2477A0B700E96077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = ATSDWebImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hefeichenye.app.ios.ATSDWebImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATSDWebImage.app/ATSDWebImage";
+			};
+			name = Release;
+		};
+		4520302D2477A0B700E96077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = ATSDWebImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hefeichenye.app.ios.ATSDWebImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATSDWebImage;
+			};
+			name = Debug;
+		};
+		4520302E2477A0B700E96077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = ATSDWebImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hefeichenye.app.ios.ATSDWebImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATSDWebImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45202FF42477A0B100E96077 /* Build configuration list for PBXProject "ATSDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452030242477A0B700E96077 /* Debug */,
+				452030252477A0B700E96077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452030262477A0B700E96077 /* Build configuration list for PBXNativeTarget "ATSDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452030272477A0B700E96077 /* Debug */,
+				452030282477A0B700E96077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452030292477A0B700E96077 /* Build configuration list for PBXNativeTarget "ATSDWebImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4520302A2477A0B700E96077 /* Debug */,
+				4520302B2477A0B700E96077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4520302C2477A0B700E96077 /* Build configuration list for PBXNativeTarget "ATSDWebImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4520302D2477A0B700E96077 /* Debug */,
+				4520302E2477A0B700E96077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		452030052477A0B100E96077 /* ATSDWebImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				452030062477A0B100E96077 /* ATSDWebImage.xcdatamodel */,
+			);
+			currentVersion = 452030062477A0B100E96077 /* ATSDWebImage.xcdatamodel */;
+			path = ATSDWebImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45202FF12477A0B100E96077 /* Project object */;
+}
