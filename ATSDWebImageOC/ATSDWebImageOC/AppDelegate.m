@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (__builtin_available(iOS 13, *)) {
+        
+    } else {
+        self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    }
     return YES;
 }
 

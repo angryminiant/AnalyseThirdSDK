@@ -1,13 +1,12 @@
 //
 //  SceneDelegate.m
-//  ATSDWebImageOC
+//  AliPayDemo
 //
-//  Created by hugengya on 2020/5/22.
+//  Created by hugengya on 2020/5/27.
 //  Copyright © 2020 com.hefeichenye. All rights reserved.
 //
 
 #import "SceneDelegate.h"
-#import "AppDelegate.h"
 
 @interface SceneDelegate ()
 
@@ -20,7 +19,6 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
 }
 
 
@@ -54,9 +52,6 @@
     // Called as the scene transitions from the foreground to the background.
     // Use this method to save data, release shared resources, and store enough scene-specific state information
     // to restore the scene back to its current state.
-
-    // Save changes in the application's managed object context when the application transitions to the background.
-    [(AppDelegate *)UIApplication.sharedApplication.delegate saveContext];
 }
 
 

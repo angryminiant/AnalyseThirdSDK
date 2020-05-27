@@ -15,5 +15,8 @@
 
 #import <SDWebImage.h>
 
+#import "ViewController.h"
+#import "CollectionVC.h"
+
 
 #endif /* PrefixHeader_pch */

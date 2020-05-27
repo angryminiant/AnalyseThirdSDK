@@ -17,6 +17,8 @@
 		452030512477A28800E96077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 452030502477A28800E96077 /* main.m */; };
 		4520305B2477A28800E96077 /* ATSDWebImageOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4520305A2477A28800E96077 /* ATSDWebImageOCTests.m */; };
 		452030662477A28800E96077 /* ATSDWebImageOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452030652477A28800E96077 /* ATSDWebImageOCUITests.m */; };
+		457994BC2478BEDB00D5C424 /* CollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 457994BB2478BEDB00D5C424 /* CollectionVC.m */; };
+		45B81983247914140054FC25 /* placeholder_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45B81982247914140054FC25 /* placeholder_1.jpg */; };
 		C4AEE7CDA02F0B10904B5726 /* libPods-ATSDWebImageOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6078929640DC4B967E43B0 /* libPods-ATSDWebImageOC.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,9 @@
 		452030652477A28800E96077 /* ATSDWebImageOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATSDWebImageOCUITests.m; sourceTree = "<group>"; };
 		452030672477A28800E96077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		452030732477D1BA00E96077 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		457994BA2478BEDB00D5C424 /* CollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionVC.h; sourceTree = "<group>"; };
+		457994BB2478BEDB00D5C424 /* CollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionVC.m; sourceTree = "<group>"; };
+		45B81982247914140054FC25 /* placeholder_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder_1.jpg; sourceTree = "<group>"; };
 		64E1A399856D42F34BE6222E /* Pods-ATSDWebImageOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSDWebImageOC.release.xcconfig"; path = "Target Support Files/Pods-ATSDWebImageOC/Pods-ATSDWebImageOC.release.xcconfig"; sourceTree = "<group>"; };
 		FF6078929640DC4B967E43B0 /* libPods-ATSDWebImageOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATSDWebImageOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,19 +119,15 @@
 		4520303A2477A28500E96077 /* ATSDWebImageOC */ = {
 			isa = PBXGroup;
 			children = (
+				45B81984247915010054FC25 /* Pics */,
+				457994BD2478C67900D5C424 /* Source */,
+				457994BE2478C68700D5C424 /* Collection */,
 				4520303B2477A28500E96077 /* AppDelegate.h */,
 				4520303C2477A28500E96077 /* AppDelegate.m */,
 				4520303E2477A28500E96077 /* SceneDelegate.h */,
 				4520303F2477A28500E96077 /* SceneDelegate.m */,
 				452030412477A28500E96077 /* ViewController.h */,
 				452030422477A28500E96077 /* ViewController.m */,
-				452030442477A28500E96077 /* Main.storyboard */,
-				4520304A2477A28800E96077 /* Assets.xcassets */,
-				4520304C2477A28800E96077 /* LaunchScreen.storyboard */,
-				4520304F2477A28800E96077 /* Info.plist */,
-				452030502477A28800E96077 /* main.m */,
-				452030472477A28500E96077 /* ATSDWebImageOC.xcdatamodeld */,
-				452030732477D1BA00E96077 /* PrefixHeader.pch */,
 			);
 			path = ATSDWebImageOC;
 			sourceTree = "<group>";
@@ -147,6 +148,37 @@
 				452030672477A28800E96077 /* Info.plist */,
 			);
 			path = ATSDWebImageOCUITests;
+			sourceTree = "<group>";
+		};
+		457994BD2478C67900D5C424 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				452030442477A28500E96077 /* Main.storyboard */,
+				4520304A2477A28800E96077 /* Assets.xcassets */,
+				4520304C2477A28800E96077 /* LaunchScreen.storyboard */,
+				4520304F2477A28800E96077 /* Info.plist */,
+				452030502477A28800E96077 /* main.m */,
+				452030472477A28500E96077 /* ATSDWebImageOC.xcdatamodeld */,
+				452030732477D1BA00E96077 /* PrefixHeader.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		457994BE2478C68700D5C424 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				457994BA2478BEDB00D5C424 /* CollectionVC.h */,
+				457994BB2478BEDB00D5C424 /* CollectionVC.m */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		45B81984247915010054FC25 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				45B81982247914140054FC25 /* placeholder_1.jpg */,
+			);
+			path = Pics;
 			sourceTree = "<group>";
 		};
 		5EC3F1BE9712F83CEDC33658 /* Pods */ = {
@@ -273,6 +305,7 @@
 				4520304E2477A28800E96077 /* LaunchScreen.storyboard in Resources */,
 				4520304B2477A28800E96077 /* Assets.xcassets in Resources */,
 				452030462477A28500E96077 /* Main.storyboard in Resources */,
+				45B81983247914140054FC25 /* placeholder_1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +357,7 @@
 			files = (
 				452030512477A28800E96077 /* main.m in Sources */,
 				452030432477A28500E96077 /* ViewController.m in Sources */,
+				457994BC2478BEDB00D5C424 /* CollectionVC.m in Sources */,
 				4520303D2477A28500E96077 /* AppDelegate.m in Sources */,
 				452030492477A28500E96077 /* ATSDWebImageOC.xcdatamodeld in Sources */,
 				452030402477A28500E96077 /* SceneDelegate.m in Sources */,
